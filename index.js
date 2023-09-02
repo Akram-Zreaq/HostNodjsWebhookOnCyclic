@@ -70,8 +70,8 @@ app.post("/webhook",(req,res)=>{
                 });
                 res.sendStatus(200);
             }else{
-                res.sendStatus(404);
-                console.log("No messages sent to the number")
+                //res.sendStatus(404);
+                //console.log("No messages sent to the number")
             }
     };
 });
