@@ -11,7 +11,7 @@ const token=process.env.TOKEN;
 const mytoken=process.env.MYTOKEN;
 
 app.listen(process.env.PORT | 8000,()=>{
-    console.log("webhook is listening");
+    //console.log("webhook is listening");
 });
 
 //to verify the callback url from dashboard side - cloud api side 'verify token' in facebook account
