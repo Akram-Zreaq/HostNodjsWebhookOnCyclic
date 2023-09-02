@@ -45,7 +45,7 @@ app.post("/webhook",(req,res)=>{
             body_param.entry[0].changes[0].value.messages &&
             body_param.entry[0].changes[0].value.messages[0]
             ){
-                console.log("Inside body param entry");
+                //console.log("Inside body param entry");
                 let phon_no_id=body_param.entry[0].changes[0].value.metadata.phone_number_id;
                 let from=body_param.entry[0].changes[0].value.messages[0].from;
                 let mmsg_body=body_param.entry[0].changes[0].value.messages[0].text.body;
